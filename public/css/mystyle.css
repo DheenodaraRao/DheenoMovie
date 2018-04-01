@@ -1,0 +1,247 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: yellow;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+    color: white;
+}
+
+#mainBody {
+    background-color: black;
+}
+.movieImg{
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px 1px black;
+    width: 280px;
+    height:240px;
+    margin-bottom: 5px;
+}
+#fullDetails {
+    margin-left: 50px;
+    margin-right: 50px;
+    display: block;
+}
+
+#fullDetails img{
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    width: 350px;
+    height:400;
+    float: left;
+    padding: 20px;
+}
+#fullDetails img:hover{
+    box-shadow: 0px 0px 2px 1px yellow;
+}
+
+#fullDetails p{
+    background-color: black;
+    color: yellow;
+    border: 1px solid black;
+    width: 400px;
+    height: auto;
+    margin: 30px;
+    padding: 10px;
+    display: block;
+    float: left;
+    border-radius: 10px;
+    text-align: left;
+}
+
+#fullDetails p:hover{
+    background-color: black;
+    color: white;
+    transform: scale(1.02);
+    box-shadow: 0px 0px 5px 4px yellow;
+}
+
+.floatBox{
+    display: inline-block;
+    background-color: yellow;
+    border: 1px solid black;
+    color: black;
+    width: 300px;
+    height: 280px;
+    margin: 10px 20px 10px 20px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+}
+
+p:hover{
+    background-color: black;
+    color: white;
+    transform: scale(1.02);
+    box-shadow: 0px 0px 5px 4px yellow;
+}
+
+#title{
+    margin-top: 5px;
+}
+
+#content{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h2,hr {
+    color: white;
+}
+
+#orderBy {
+    padding: 10px 20px 10px 20px;
+    margin: 10px;
+    width: 50px;
+}
+
+#orderBy option:hover{
+    color: yellow;
+}
+
+#loginForm {
+    text-align: center;
+    margin: auto;
+    margin-top: 10%;
+    padding: 20px;
+    display: block;
+    background-color: whitesmoke;
+    width: 400px;
+    border: 1px solid yellow;
+    border-radius: 10px;
+}
+
+#loginLabel {
+    padding: 10px;
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#inputLogin{
+    padding: 0px 0px 15px 0px;
+}
+
+#inputLogin input:hover{
+    box-shadow: 1px solid yellow;
+}
+
+#loginButton{
+    display: inline-block;
+    padding: 5px;
+}
+
+#loginButton input:hover{
+    background-color: black;
+    color: yellow;
+}
+
+#ManagementNotes {
+    color: white;
+}
+
+#filters form{
+    text-align: left;
+    padding: 10px;
+    display: inline-block;
+}
+
+
+#managementNav  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+}
+
+#managementNav  li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+#managementNav  li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+#managementNav  li a:active {
+    background-color: #555;
+    color: white;
+}
+
+#movieForm form{
+    margin: auto;
+    display: block;
+    text-align: center;
+    padding: 20px;
+    background-color: antiquewhite;
+    border-radius: 1px solid black;
+    background-color: whitesmoke;
+    width: 60%;
+    border: 1px solid yellow;
+    border-radius: 10px;
+}
+
+#movieForm textarea{
+    width: 600px;
+    height: 50px;
+}
+
+#formLabel{
+    padding: 15px 0px 3px 0px;
+    font-size: 15px;
+}
+
+#submitButton input{
+    width: 150px;
+    height: 30px;
+    margin-top: 20px;
+
+    border: 1px solid black;
+    color: black;
+}
+
+#submitButton input:hover{
+    background-color: black;
+    color: yellow;
+}
+
+#deleteButton input{
+    width: 150px;
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 1px solid black;
+    color: black;
+}
+
+#deleteButton input:hover{
+    background-color: maroon;
+    color: white;
+}
